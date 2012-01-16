@@ -12,6 +12,11 @@
  *--------------------------------------------------------------------------*/
 package jp.marisa;
 
+/**
+ * this class provides interface to C++ `marisa::Keyset` class.
+ * 
+ * @see http://marisa-trie.googlecode.com/svn/branches/marisa-0.2.0-beta7/docs/readme.en.html
+ */
 public class KeysetNative {
 	public static final float DEFAULT_WAIT = 1.0F;
     long handle;

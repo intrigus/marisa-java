@@ -12,12 +12,23 @@
  *--------------------------------------------------------------------------*/
 package jp.marisa;
 
+/**
+ * Thrown when exceptional condition has occurred in a native library.
+ */
 public class MarisaException extends RuntimeException {
 	private static final long serialVersionUID = -3082769273114119224L;
 	private String fileName;
 	private int line;
 	private int errorCode;
-	
+
+	/**
+	 * Construct a MarisaException with the specified arguments.
+	 * 
+	 * @param fileName fileName. 
+	 * @param line line number.
+	 * @param errorCode error code.
+	 * @param message message.
+	 */
 	public MarisaException(String fileName, int line, int errorCode, String message) {
 		super(message);
 	}

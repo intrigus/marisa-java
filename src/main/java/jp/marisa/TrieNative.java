@@ -12,6 +12,11 @@
  *--------------------------------------------------------------------------*/
 package jp.marisa;
 
+/**
+ * this class provides interface to C++ `marisa::Trie` class.
+ * 
+ * @see http://marisa-trie.googlecode.com/svn/branches/marisa-0.2.0-beta7/docs/readme.en.html
+ */
 public class TrieNative {
 	//marisa_num_tries
 	public static final int MARISA_MIN_NUM_TRIES = 0x00001;

@@ -16,6 +16,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * Configuration of Marisa.
+ */
 public class MarisaConfiguration {
     static Properties props;
 
@@ -72,14 +75,23 @@ public class MarisaConfiguration {
 		return defaultValue;
 	}
     
+	/**
+	 * Get native library full path if provided. otherwise null.
+	 */
     public static String getNativeLibraryFullPath() {
     	return getString("jp.marisa.nativeLibraryFullPath", null, true, false);
     }
 
+	/**
+	 * Get whether to use system lib or not.
+	 */
     public static boolean getUseSystemLib() {
     	return getBoolean("jp.marisa.useSystemLib", false);
     }
 
+	/**
+	 * Get temporary directory name if provided. otherwise use "java.io.tmpdir".
+	 */
     public static String getTempDirectoryName() {
     	return getString("jp.marisa.tempdir", System.getProperty("java.io.tmpdir"), false, false);
     }

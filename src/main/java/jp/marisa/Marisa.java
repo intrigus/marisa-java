@@ -16,6 +16,35 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * This class provides rich interface to marisa.
+ * 
+ * <pre>
+ * {@code 
+ * Marisa marisa = new Marisa();
+ * try {
+ *   List<String> keyset = new ArrayList<String>();
+ *   keyset.add("a");
+ *   keyset.add("app");
+ *   keyset.add("apple");
+ *       
+ *   marisa.build(keyset);
+ *       
+ *   final String query = "apple";
+ *   List<Marisa.IdKeyPair> results = marisa.commonPrefixSearch(query);
+ *   if (results == null) {
+ *     System.out.println("not found: " + query);
+ *   } else {
+ *     for(Marisa.IdKeyPair result : results) {
+ *       System.out.println(result.Key + ": " + result.Id);
+ *     }
+ *   }
+ * } finally {
+ *   marisa.close();
+ * }
+ * }
+ * </pre>
+ */
 public class Marisa implements java.io.Closeable {
 	
 	public static class IdKeyPair {

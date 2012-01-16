@@ -25,6 +25,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Properties;
 
+/**
+ * this class provides class loader of native library `libmarisa-java.so`.
+ */
 public final class MarisaLoader {
 	static java.util.logging.Logger logger = java.util.logging.Logger.getLogger(MarisaLoader.class.getCanonicalName());
 	

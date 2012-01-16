@@ -16,6 +16,7 @@ import static org.junit.Assert.*;
 
 import java.io.File;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -184,6 +185,31 @@ public class MarisaTest {
 		assertThat(pair1.Key, is("ALICE"));
 		
 		marisa.close();
+	}
+	
+	@Test
+	public void testExampleCode() {
+		Marisa marisa = new Marisa();
+		try {
+			List<String> keyset = new ArrayList<String>();
+			keyset.add("a");
+			keyset.add("app");
+			keyset.add("apple");
+
+			marisa.build(keyset);
+
+			final String query = "apple";
+			List<Marisa.IdKeyPair> results = marisa.commonPrefixSearch(query);
+			if (results == null) {
+				System.out.println("not found: " + query);
+			} else {
+				for (Marisa.IdKeyPair result : results) {
+					System.out.println(result.Key + ": " + result.Id);
+				}
+			}
+		} finally {
+			marisa.close();
+		}
 	}
 
 	@Test
