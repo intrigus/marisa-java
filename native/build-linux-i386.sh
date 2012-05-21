@@ -4,7 +4,7 @@ CXX=g++
 
 [ -z "$JAVA_HOME" ] && JAVA_HOME=/usr/java/default
 
-CXXFLAGS="-Wall -I$JAVA_HOME/include -I$JAVA_HOME/include/linux -I./marisa-0.2.0-beta7/lib -g -O2 -fPIC -m32"
+CXXFLAGS="-Wall -I$JAVA_HOME/include -I$JAVA_HOME/include/linux -I./marisa-0.2.0/lib -g -O2 -fPIC -m32"
 LINKFLAGS="-shared"
 
 [ -e $OUTDIR ] || mkdir -p $OUTDIR
@@ -16,7 +16,7 @@ do
   $CXX $CXXFLAGS -c -o $OUTDIR/$(basename $cc | sed -e 's/\.cpp/\.o/') $cc
 done
 
-find marisa-0.2.0-beta7/ -name '*.cc' | while read cc
+find marisa-0.2.0/ -name '*.cc' | while read cc
 do
   basename $cc
   $CXX $CXXFLAGS -c -o $OUTDIR/$(basename $cc | sed -e 's/\.cc/\.o/') $cc

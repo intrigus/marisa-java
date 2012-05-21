@@ -116,20 +116,17 @@ bool Trie::predictive_search(Agent &agent) const {
 }
 
 std::size_t Trie::num_tries() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return 0;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->num_tries();
 }
 
 std::size_t Trie::num_keys() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return 0;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->num_keys();
 }
 
 std::size_t Trie::num_nodes() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return 0;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->num_nodes();
 }
 
@@ -144,26 +141,22 @@ NodeOrder Trie::node_order() const {
 }
 
 bool Trie::empty() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return true;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->empty();
 }
 
 std::size_t Trie::size() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return 0;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->size();
 }
 
 std::size_t Trie::total_size() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return 0;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->total_size();
 }
 
 std::size_t Trie::io_size() const {
-  //MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
-  if (trie_.get() == NULL) return 0;
+  MARISA_THROW_IF(trie_.get() == NULL, MARISA_STATE_ERROR);
   return trie_->io_size();
 }
 

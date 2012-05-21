@@ -48,112 +48,112 @@
     <ClInclude Include="..\src\TrieNative.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\algorithm\sort.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\algorithm\sort.h">
       <Filter>marisa\grimoire\algorithm</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io\mapper.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\io\mapper.h">
       <Filter>marisa\grimoire\io</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io\reader.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\io\reader.h">
       <Filter>marisa\grimoire\io</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io\writer.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\io\writer.h">
       <Filter>marisa\grimoire\io</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\cache.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\cache.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\config.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\config.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\entry.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\entry.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\header.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\header.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\history.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\history.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\key.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\key.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\louds-trie.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\louds-trie.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\range.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\range.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\state.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\state.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\tail.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\tail.h">
       <Filter>marisa\grimoire\trie</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\bit-vector.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\bit-vector.h">
       <Filter>marisa\grimoire\vector</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\precomputed-table.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\precomputed-table.h">
       <Filter>marisa\grimoire\vector</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\rank-index.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\rank-index.h">
       <Filter>marisa\grimoire\vector</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\vector.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\vector.h">
       <Filter>marisa\grimoire\vector</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\algorithm.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\algorithm.h">
       <Filter>marisa\grimoire</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\io.h">
       <Filter>marisa\grimoire</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\trie.h">
       <Filter>marisa\grimoire</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector.h">
       <Filter>marisa\grimoire</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\agent.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\agent.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\base.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\base.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\exception.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\exception.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\iostream.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\iostream.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\key.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\key.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\keyset.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\keyset.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\query.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\query.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\scoped-array.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\scoped-array.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\scoped-ptr.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\scoped-ptr.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\stdio.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\stdio.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\trie.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\trie.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\flat-vector.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\flat-vector.h">
       <Filter>marisa\grimoire\vector</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa.h">
       <Filter>marisa</Filter>
     </ClInclude>
-    <ClInclude Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\pop-count.h">
+    <ClInclude Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\pop-count.h">
       <Filter>marisa\grimoire\vector</Filter>
     </ClInclude>
   </ItemGroup>
@@ -173,34 +173,34 @@
     <ClCompile Include="..\src\TrieNative.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io\mapper.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\io\mapper.cc">
       <Filter>marisa\grimoire\io</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io\writer.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\io\writer.cc">
       <Filter>marisa\grimoire\io</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\io\reader.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\io\reader.cc">
       <Filter>marisa\grimoire\io</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\louds-trie.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\louds-trie.cc">
       <Filter>marisa\grimoire\trie</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\trie\tail.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\trie\tail.cc">
       <Filter>marisa\grimoire\trie</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\bit-vector.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\bit-vector.cc">
       <Filter>marisa\grimoire\vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\grimoire\vector\precomputed-table.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\grimoire\vector\precomputed-table.cc">
       <Filter>marisa\grimoire\vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\agent.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\agent.cc">
       <Filter>marisa</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\keyset.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\keyset.cc">
       <Filter>marisa</Filter>
     </ClCompile>
-    <ClCompile Include="..\marisa-0.2.0-beta7\lib\marisa\trie.cc">
+    <ClCompile Include="..\marisa-0.2.0\lib\marisa\trie.cc">
       <Filter>marisa</Filter>
     </ClCompile>
   </ItemGroup>

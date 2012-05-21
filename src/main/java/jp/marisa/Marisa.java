@@ -88,7 +88,11 @@ public class Marisa implements java.io.Closeable {
 	}
 	
 	public int size() {
-		return (int)this.trie.num_keys();
+		try {
+			return (int)this.trie.num_keys();
+		} catch (MarisaException ignore) {
+			return 0;
+		}
 	}
 	
 	public void build(Collection<String> keys) {
